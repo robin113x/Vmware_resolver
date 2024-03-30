@@ -2,7 +2,14 @@
 Vmware_resolver
 Vmware_resolver
 
-
+sudo apt install -y build-essential dkms git iw
+git clone https://github.com/morrownr/8814au.git
+sudo git clone https://www.github.com/FluxionNetwork/fluxion.git
+git clone https://github.com/mkubecek/vmware-host-modules
+git checkout workstation-17.5.1
+git checkout workstation-17.5.1
+sudo make
+sudo install
 
 $ sudo vmware-modconfig --console --install-all
 
